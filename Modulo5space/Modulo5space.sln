@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Modulo5space", "Modulo5space.vcxproj", "{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Debug|x64.ActiveCfg = Debug|x64
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Debug|x64.Build.0 = Debug|x64
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Debug|x86.ActiveCfg = Debug|Win32
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Debug|x86.Build.0 = Debug|Win32
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Release|x64.ActiveCfg = Release|x64
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Release|x64.Build.0 = Release|x64
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Release|x86.ActiveCfg = Release|Win32
+		{693FBF48-FAC9-4A1F-B7AB-E2FF0379B779}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC87FC81-5222-4EB8-B733-3646F9AB361C}
+	EndGlobalSection
+EndGlobal
