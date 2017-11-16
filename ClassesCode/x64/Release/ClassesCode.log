@@ -1,0 +1,9 @@
+﻿  ClassesCode.cpp
+ClassesCode.cpp(43): error C2065: 'C': undeclared identifier
+ClassesCode.cpp(43): error C2146: syntax error: missing ')' before identifier 'Programming'
+ClassesCode.cpp(44): error C2065: 'Visual': undeclared identifier
+ClassesCode.cpp(44): error C2146: syntax error: missing ')' before identifier 'Programming'
+ClassesCode.cpp(46): error C2065: 'gradebook1': undeclared identifier
+ClassesCode.cpp(46): error C2228: left of '.getCourseName' must have class/struct/union
+  ClassesCode.cpp(46): note: type is 'unknown-type'
+ClassesCode.cpp(46): error C2065: 'gradebook2': undeclared identifier
