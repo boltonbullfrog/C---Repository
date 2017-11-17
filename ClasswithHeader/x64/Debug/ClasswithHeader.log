@@ -1,0 +1,11 @@
+﻿  ClasswithHeader.cpp
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(13): error C2065: 'GradeBook': undeclared identifier
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(13): error C2146: syntax error: missing ';' before identifier 'gradebook1'
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(13): error C3861: 'gradebook1': identifier not found
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(14): error C2065: 'GradeBook': undeclared identifier
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(14): error C2146: syntax error: missing ';' before identifier 'gradebook2'
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(14): error C3861: 'gradebook2': identifier not found
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(16): error C2065: 'gradebook1': undeclared identifier
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(16): error C2228: left of '.getCourseName' must have class/struct/union
+  c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(16): note: type is 'unknown-type'
+c:\users\brian\documents\github\c---repository\classwithheader\classwithheader.cpp(16): error C2065: 'gradebook2': undeclared identifier
