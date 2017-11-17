@@ -16,8 +16,16 @@ GradeBook::GradeBook(string name)
 // function to set the course name
 void GradeBook::setCourseName(string name)
 	{
-	courseName = name; // store the course name in the object
-	} // end function setCourseName
+	if (name.length() <= 25) // if name has 25 or fewer characters
+		courseName = name; // store the course name in the object
+	if (name.length() > 25) // if name has more than 25 characters
+	{
+		// set courseName to first 25 characters of parameter name
+		courseName = name.substr(0, 25); // start at 0, length of 25
+		cout << "Name \"" << name << "\" exceeds maximum length (25).\n"
+			<< "Limiting courseName to first 25 characters.\n" << endl;
+	} // end if
+} // end function setCourseName// end function setCourseName
 
 // function to get the course name
 string GradeBook::getCourseName()
