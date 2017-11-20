@@ -41,3 +41,28 @@ void GradeBook::displayMessage()
 	cout << "Welcome to the grade book for\n" << getCourseName()
 	 << "!" << endl;
 	 } // end function displayMessage
+
+void GradeBook::determineClassAverage()
+{
+	int total;
+	int gradeCounter;
+	int grade;
+	int average;
+
+	//initialise
+	total = 0;
+	gradeCounter = 1;
+
+	while (gradeCounter <= 10)
+	{
+		cout << "Enter grade ";
+		cin >> grade;
+		total = total + grade;
+		gradeCounter += 1;
+	}
+
+	average = total / 10;
+	cout << "Class average is " << average << endl;
+	cout << "\nTotal of all grades is " << total << endl;
+
+}

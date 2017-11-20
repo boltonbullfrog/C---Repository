@@ -12,7 +12,8 @@ using namespace std;
 	 GradeBook(string); // constructor that initializes courseName
 	 void setCourseName(string); // function that sets the course name
 	 string getCourseName(); // function that gets the course name
-	 void displayMessage(); // function that displays a welcome message
+	 void displayMessage();	 // function that displays a welcome message
+	 void determineClassAverage(); 
 private:
 	string courseName; // course name for this GradeBook
 	}; // end class GradeBook
