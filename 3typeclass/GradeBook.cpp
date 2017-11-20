@@ -3,6 +3,7 @@
 // implementations of the member functions prototyped in GradeBook.h.
 #include "stdafx.h"
 #include <iostream>
+#include <iomanip>
 #include "GradeBook.h" // include definition of class GradeBook
 
 using namespace std;
@@ -47,22 +48,29 @@ void GradeBook::determineClassAverage()
 	int total;
 	int gradeCounter;
 	int grade;
-	int average;
+	double average;
 
 	//initialise
 	total = 0;
-	gradeCounter = 1;
+	gradeCounter = 0;
 
-	while (gradeCounter <= 10)
+	cout << "Enter grade or -1 to quit: ";
+	cin >> grade;
+
+	while (grade != -1)
 	{
-		cout << "Enter grade ";
-		cin >> grade;
 		total = total + grade;
 		gradeCounter += 1;
+		cout << "Enter grade or -1 to quit: ";
+		cin >> grade;
 	}
 
-	average = total / 10;
-	cout << "Class average is " << average << endl;
-	cout << "\nTotal of all grades is " << total << endl;
-
+	if (gradeCounter != 0)
+	{
+		average = static_cast<double>(total) / gradeCounter;
+		cout << "Class average is " << setprecision(2) << fixed << average << endl;
+		cout << "\nTotal of all grades is " << total << endl;
+	}
+	else
+		cout << "No gardes were entered" << endl;
 }
