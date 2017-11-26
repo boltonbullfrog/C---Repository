@@ -1,0 +1,3 @@
+﻿  DiceContinued.cpp
+c:\users\brian\documents\github\c---repository\dicecontinued\dicecontinued.cpp(21): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  DiceContinued.vcxproj -> C:\Users\brian\Documents\GitHub\C---Repository\DiceContinued\Debug\DiceContinued.exe
